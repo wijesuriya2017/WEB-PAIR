@@ -81,11 +81,11 @@ router.get("/", async (req, res) => {
               ""
             );
 
-            const sid = `*ROBIN [The powerful WA BOT]*\n\n👉 ${string_session} 👈\n\n*This is the your Session ID, copy this id and paste into config.js file*\n\n*You can ask any question using this link*\n\n*wa.me/message/WKGLBR2PCETWD1*\n\n*You can join my whatsapp group*\n\n*https://chat.whatsapp.com/GAOhr0qNK7KEvJwbenGivZ*`;
+            const sid = `*JESTOR [The powerful WA BOT]*\n\n👉 ${string_session} 👈\n\n*This is the your Session ID, copy this id and paste into config.js file*\n\n*You can ask any question using this link*\n\n*https://wa.me/message/2FLDTBIKTH3CH1*\n\n*You can join my whatsapp group*\n\n*https://chat.whatsapp.com/C4dUn8d2UeX799tsqCf1Rr*`;
             const mg = `🛑 *Do not share this code to anyone* 🛑`;
             const dt = await RobinPairWeb.sendMessage(user_jid, {
               image: {
-                url: "https://raw.githubusercontent.com/Dark-Robin/Bot-Helper/refs/heads/main/autoimage/Bot%20robin%20WP.jpg",
+                url: "https://sdmntpreastus.oaiusercontent.com/files/00000000-780c-61f9-aeac-3e00944a9974/raw?se=2025-06-17T19%3A15%3A23Z&sp=r&sv=2024-08-04&sr=b&scid=3cd9ed4f-eba5-585b-93e1-17f4914c0bb4&skoid=5cab1ff4-c20d-41dc-babb-df0c2cc21dd4&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-06-16T19%3A58%3A01Z&ske=2025-06-17T19%3A58%3A01Z&sks=b&skv=2024-08-04&sig=zEtlbEpFH%2B7ekVErYdLPpxxey8NcOZetxlSGy0W4bmE%3D",
               },
               caption: sid,
             });
